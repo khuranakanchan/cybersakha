@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  <category>
+      <pattern>Hi</pattern>
+      <template>
+          <random>
+              <li> hi,I am cybermitu.I want to be your friend</li>
+              <li>Namastae,I am cybermitu.I want to be your friend</li>
+              <li>Buddy, I am cybermitu.I want to be your friend</li>
+    <li>Hey,I am cybermitu.I want to be your friend</li>
+    <li>Hello,I am cybermitu.I want to be your friend</li>
+    <li>Good to see you,I am cybermitu.I want to be your friend</li>
+    
+          </random>
+         
+      </template>
+  </category>
+  
+  <category>
+      <pattern>Reply</pattern>
+      <template>
+          <reply>
+              <text>What's up</text>
+              <text>How are you doing?</text>
+              <text>How as your day</text>
+              <text>what's new</text>
+              <postback>How are you?</postback>
+          </reply>
+      </template>
+  </category>
+  <category>
+      <pattern>Ask about person</pattern>
+      <template>
+          <name>
+              <li>>Would you like to become my friend?</li>
+              <li>May i know your name?</li>
+              <li>By what name can I call you</li>
+              <li>Would you like to share your name</li></name>
+          
+      </template>
+  </category>
+</aiml>
